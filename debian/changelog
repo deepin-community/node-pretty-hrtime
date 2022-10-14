@@ -1,0 +1,44 @@
+node-pretty-hrtime (1.0.3+~1.0.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Embed typescript definitions and repack
+
+ -- Yadd <yadd@debian.org>  Tue, 16 Nov 2021 21:48:29 +0100
+
+node-pretty-hrtime (1.0.3-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from deprecated 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Apply multi-arch hints.
+    + node-pretty-hrtime: Add Multi-Arch: foreign.
+  * Remove empty leading paragraph in Description.
+  * Bump debhelper from old 12 to 13.
+
+  [ Yadd ]
+  * Declare compliance with policy 4.6.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+    * Fix filenamemangle
+    * Fix GitHub tags regex
+  * Drop dependency to nodejs
+  * Mark test dependencies with <!nocheck>
+  * Use dh-sequence-nodejs auto test & install
+
+ -- Yadd <yadd@debian.org>  Tue, 16 Nov 2021 15:23:33 +0100
+
+node-pretty-hrtime (1.0.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #847790)
+
+ -- Sruthi Chandran <srud@disroot.org>  Mon, 12 Dec 2016 00:05:35 +0530
